@@ -23,7 +23,7 @@
                         </div>
                     </div>
                     <div class="service__content">
-                        <h3><a href="course-details.html">Business Studies</a></h3>
+                        <h3><a href="#">Business Studies</a></h3>
                         <p>Business is succes</p>
                     </div>
                     <div class="service__small__img">
@@ -45,7 +45,7 @@
                         </div>
                     </div>
                     <div class="service__content">
-                        <h3><a href="course-details.html">Programming Tech</a></h3>
+                        <h3><a href="#">Programming Tech</a></h3>
                         <p>update your skill</p>
                     </div>
                     <div class="service__small__img">
@@ -76,7 +76,7 @@
                         </div>
                     </div>
                     <div class="service__content">
-                        <h3><a href="course-details.html">Artist & Design</a></h3>
+                        <h3><a href="#">Artist & Design</a></h3>
                         <p>show creativity</p>
                     </div>
                     <div class="service__small__img">
@@ -108,7 +108,7 @@
                         </div>
                     </div>
                     <div class="service__content">
-                        <h3><a href="course-details.html">Artist & Design</a></h3>
+                        <h3><a href="#">Artist & Design</a></h3>
                         <p>show creativity</p>
                     </div>
                     <div class="service__small__img">

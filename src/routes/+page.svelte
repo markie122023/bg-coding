@@ -156,7 +156,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter1 filter3">
                   <div class="gridarea__wraper">
                       <div class="gridarea__img">
-                          <a href="course-details.html"><img src="images/grid_1.png" alt="grid"></a>
+                          <a href="#"><img src="images/grid_1.png" alt="grid"></a>
                           <div class="gridarea__small__button">
                               <div class="grid__badge">Data & Tech</div>
                           </div>
@@ -177,7 +177,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                               </ul>
                           </div>
                           <div class="gridarea__heading">
-                              <h3><a href="course-details.html">Foundation course to under stand
+                              <h3><a href="#">Foundation course to under stand
                                   about softwere</a></h3>
                           </div>
                           <div class="gridarea__price">
@@ -187,7 +187,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                           </div>
                           <div class="gridarea__bottom">
 
-                              <a href="instructor-details.html">
+                              <a href="#">
                                   <div class="gridarea__small__img">
                                       <img src="images/grid_small_1.jpg" alt="grid">
                                       <div class="gridarea__small__content">
@@ -242,7 +242,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
 
                           </div>
                           <div class="gridarea__bottom">
-                              <a href="instructor-details.html">
+                              <a href="#">
                                   <div class="gridarea__small__img">
                                       <img src="images/grid_small_2.jpg" alt="grid">
                                       <div class="gridarea__small__content">
@@ -266,7 +266,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter4 filter5">
                   <div class="gridarea__wraper">
                       <div class="gridarea__img">
-                          <a href="course-details.html"><img src="images/grid_3.png" alt="grid"></a>
+                          <a href="#"><img src="images/grid_3.png" alt="grid"></a>
                           <div class="gridarea__small__button">
                               <div class="grid__badge pink__color">Development</div>
                           </div>
@@ -287,7 +287,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                               </ul>
                           </div>
                           <div class="gridarea__heading">
-                              <h3><a href="course-details.html">Minws course to under stand
+                              <h3><a href="#">Minws course to under stand
                                   about solution</a></h3>
                           </div>
                           <div class="gridarea__price">
@@ -297,7 +297,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                           </div>
                           <div class="gridarea__bottom">
 
-                              <a href="instructor-details.html">
+                              <a href="#">
                                   <div class="gridarea__small__img">
                                       <img src="images/grid_small_3.jpg" alt="grid">
                                       <div class="gridarea__small__content">
@@ -322,7 +322,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter4">
                   <div class="gridarea__wraper">
                       <div class="gridarea__img">
-                          <a href="course-details.html"><img src="images/grid_4.png" alt="grid"></a>
+                          <a href="#"><img src="images/grid_4.png" alt="grid"></a>
                           <div class="gridarea__small__button">
                               <div class="grid__badge green__color">Ui & UX Design</div>
                           </div>
@@ -343,7 +343,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                               </ul>
                           </div>
                           <div class="gridarea__heading">
-                              <h3><a href="course-details.html">Design course to under stand
+                              <h3><a href="#">Design course to under stand
                                   about solution</a></h3>
                           </div>
                           <div class="gridarea__price">
@@ -353,7 +353,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                           </div>
                           <div class="gridarea__bottom">
 
-                              <a href="instructor-details.html">
+                              <a href="#">
                                   <div class="gridarea__small__img">
                                       <img src="images/grid_small_4.jpg" alt="grid">
                                       <div class="gridarea__small__content">
@@ -378,7 +378,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter1 filter3">
                   <div class="gridarea__wraper">
                       <div class="gridarea__img">
-                          <a href="course-details.html"><img src="images/grid_5.png" alt="grid"></a>
+                          <a href="#"><img src="images/grid_5.png" alt="grid"></a>
                           <div class="gridarea__small__button">
                               <div class="grid__badge orange__color">Data & Tech</div>
                           </div>
@@ -399,7 +399,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                               </ul>
                           </div>
                           <div class="gridarea__heading">
-                              <h3><a href="course-details.html">Data course to under stand
+                              <h3><a href="#">Data course to under stand
                                   about solution</a></h3>
                           </div>
                           <div class="gridarea__price">
@@ -409,7 +409,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                           </div>
                           <div class="gridarea__bottom">
 
-                              <a href="instructor-details.html">
+                              <a href="#">
                                   <div class="gridarea__small__img">
                                       <img src="images/grid_small_5.jpg" alt="grid">
                                       <div class="gridarea__small__content">
@@ -434,7 +434,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter5 filter2">
                   <div class="gridarea__wraper">
                       <div class="gridarea__img">
-                          <a href="course-details.html"><img src="images/grid_6.png" alt="grid"></a>
+                          <a href="#"><img src="images/grid_6.png" alt="grid"></a>
                           <div class="gridarea__small__button">
                               <div class="grid__badge yellow__color">Big Data</div>
                           </div>
@@ -455,7 +455,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                               </ul>
                           </div>
                           <div class="gridarea__heading">
-                              <h3><a href="course-details.html">Big data to under stand
+                              <h3><a href="#">Big data to under stand
                                   about solution pacage</a></h3>
                           </div>
                           <div class="gridarea__price">
@@ -465,7 +465,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                           </div>
                           <div class="gridarea__bottom">
 
-                              <a href="instructor-details.html">
+                              <a href="#">
                                   <div class="gridarea__small__img">
                                       <img src="images/grid_small_5.jpg" alt="grid">
                                       <div class="gridarea__small__content">
@@ -632,7 +632,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                           <i class="icofont-clock-time"></i> 10.00Am - 11.00 am
                                       </li>
                                       <li>
-                                          <a href="instructor-details.html">Mirnsdo .H</a> - Event Speaker
+                                          <a href="#">Mirnsdo .H</a> - Event Speaker
                                       </li>
                                   </ul>
                               </div>
@@ -655,7 +655,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                           <i class="icofont-clock-time"></i> 10.00Am - 11.00 am
                                       </li>
                                       <li>
-                                          <a href="instructor-details.html">Mirnsdo .H</a> - Event Speaker
+                                          <a href="#">Mirnsdo .H</a> - Event Speaker
                                       </li>
                                   </ul>
                               </div>
@@ -683,7 +683,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                           <i class="icofont-clock-time"></i> 10.00Am - 11.00 am
                                       </li>
                                       <li>
-                                          <a href="instructor-details.html">Mirnsdo .H</a> - Event Speaker
+                                          <a href="#">Mirnsdo .H</a> - Event Speaker
                                       </li>
                                   </ul>
                               </div>
@@ -706,7 +706,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                           <i class="icofont-clock-time"></i> 10.00Am - 11.00 am
                                       </li>
                                       <li>
-                                          <a href="instructor-details.html">Mirnsdo .H</a> - Event Speaker
+                                          <a href="#">Mirnsdo .H</a> - Event Speaker
                                       </li>
                                   </ul>
                               </div>
@@ -741,7 +741,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                           <i class="icofont-clock-time"></i> 10.00Am - 11.00 am
                                       </li>
                                       <li>
-                                          <a href="instructor-details.html">Mirnsdo .H</a> - Event Speaker
+                                          <a href="#">Mirnsdo .H</a> - Event Speaker
                                       </li>
                                   </ul>
                               </div>
@@ -763,7 +763,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                           <i class="icofont-clock-time"></i> 10.00Am - 11.00 am
                                       </li>
                                       <li>
-                                          <a href="instructor-details.html">Mirnsdo .H</a> - Event Speaker
+                                          <a href="#">Mirnsdo .H</a> - Event Speaker
                                       </li>
                                   </ul>
                               </div>
@@ -790,7 +790,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                           <i class="icofont-clock-time"></i> 10.00Am - 11.00 am
                                       </li>
                                       <li>
-                                          <a href="instructor-details.html">Mirnsdo .H</a> - Event Speaker
+                                          <a href="#">Mirnsdo .H</a> - Event Speaker
                                       </li>
                                   </ul>
                               </div>
@@ -812,7 +812,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                           <i class="icofont-clock-time"></i> 10.00Am - 11.00 am
                                       </li>
                                       <li>
-                                          <a href="instructor-details.html">Mirnsdo .H</a> - Event Speaker
+                                          <a href="#">Mirnsdo .H</a> - Event Speaker
                                       </li>
                                   </ul>
                               </div>
@@ -848,7 +848,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                           <i class="icofont-clock-time"></i> 10.00Am - 11.00 am
                                       </li>
                                       <li>
-                                          <a href="instructor-details.html">Mirnsdo .H</a> - Event Speaker
+                                          <a href="#">Mirnsdo .H</a> - Event Speaker
                                       </li>
                                   </ul>
                               </div>
@@ -870,7 +870,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                           <i class="icofont-clock-time"></i> 10.00Am - 11.00 am
                                       </li>
                                       <li>
-                                          <a href="instructor-details.html">Mirnsdo .H</a> - Event Speaker
+                                          <a href="#">Mirnsdo .H</a> - Event Speaker
                                       </li>
                                   </ul>
                               </div>
@@ -897,7 +897,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                           <i class="icofont-clock-time"></i> 10.00Am - 11.00 am
                                       </li>
                                       <li>
-                                          <a href="instructor-details.html">Mirnsdo .H</a> - Event Speaker
+                                          <a href="#">Mirnsdo .H</a> - Event Speaker
                                       </li>
                                   </ul>
                               </div>
@@ -919,7 +919,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                           <i class="icofont-clock-time"></i> 10.00Am - 11.00 am
                                       </li>
                                       <li>
-                                          <a href="instructor-details.html">Mirnsdo .H</a> - Event Speaker
+                                          <a href="#">Mirnsdo .H</a> - Event Speaker
                                       </li>
                                   </ul>
                               </div>
@@ -954,7 +954,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                           <i class="icofont-clock-time"></i> 10.00Am - 11.00 am
                                       </li>
                                       <li>
-                                          <a href="instructor-details.html">Mirnsdo .H</a> - Event Speaker
+                                          <a href="#">Mirnsdo .H</a> - Event Speaker
                                       </li>
                                   </ul>
                               </div>
@@ -976,7 +976,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                           <i class="icofont-clock-time"></i> 10.00Am - 11.00 am
                                       </li>
                                       <li>
-                                          <a href="instructor-details.html">Mirnsdo .H</a> - Event Speaker
+                                          <a href="#">Mirnsdo .H</a> - Event Speaker
                                       </li>
                                   </ul>
                               </div>
@@ -1003,7 +1003,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                           <i class="icofont-clock-time"></i> 10.00Am - 11.00 am
                                       </li>
                                       <li>
-                                          <a href="instructor-details.html">Mirnsdo .H</a> - Event Speaker
+                                          <a href="#">Mirnsdo .H</a> - Event Speaker
                                       </li>
                                   </ul>
                               </div>
@@ -1025,7 +1025,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                           <i class="icofont-clock-time"></i> 10.00Am - 11.00 am
                                       </li>
                                       <li>
-                                          <a href="instructor-details.html">Mirnsdo .H</a> - Event Speaker
+                                          <a href="#">Mirnsdo .H</a> - Event Speaker
                                       </li>
                                   </ul>
                               </div>
@@ -1060,7 +1060,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                           <i class="icofont-clock-time"></i> 10.00Am - 11.00 am
                                       </li>
                                       <li>
-                                          <a href="instructor-details.html">Mirnsdo .H</a> - Event Speaker
+                                          <a href="#">Mirnsdo .H</a> - Event Speaker
                                       </li>
                                   </ul>
                               </div>
@@ -1082,7 +1082,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                           <i class="icofont-clock-time"></i> 10.00Am - 11.00 am
                                       </li>
                                       <li>
-                                          <a href="instructor-details.html">Mirnsdo .H</a> - Event Speaker
+                                          <a href="#">Mirnsdo .H</a> - Event Speaker
                                       </li>
                                   </ul>
                               </div>
@@ -1109,7 +1109,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                           <i class="icofont-clock-time"></i> 10.00Am - 11.00 am
                                       </li>
                                       <li>
-                                          <a href="instructor-details.html">Mirnsdo .H</a> - Event Speaker
+                                          <a href="#">Mirnsdo .H</a> - Event Speaker
                                       </li>
                                   </ul>
                               </div>
@@ -1131,7 +1131,7 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                           <i class="icofont-clock-time"></i> 10.00Am - 11.00 am
                                       </li>
                                       <li>
-                                          <a href="instructor-details.html">Mirnsdo .H</a> - Event Speaker
+                                          <a href="#">Mirnsdo .H</a> - Event Speaker
                                       </li>
                                   </ul>
                               </div>
