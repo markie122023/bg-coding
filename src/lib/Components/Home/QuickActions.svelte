@@ -44,7 +44,7 @@
   .card-1 {
     content: "";
     color: white;
-    background-image: url("./images/faces/pink.jpeg");
+    background-image: url(/images/faces/pink.jpeg);
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -53,6 +53,6 @@
     background-color: green;
     content: "";
     color: white;
-    background-image: url("./images/illustrators/startup.svg");
+    background-image: url(/images/illustrators/startup.svg);
   }
 </style>

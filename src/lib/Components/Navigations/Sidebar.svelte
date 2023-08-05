@@ -30,7 +30,7 @@
             <a class="nav-link" href="#">Payment Resolution</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="withdrawal">Withdrawal Request</a>
+            <a class="nav-link" href="#">Withdrawal Request</a>
           </li>
         </ul>
       </div>
