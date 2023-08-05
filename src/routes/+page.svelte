@@ -637,10 +637,10 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                   </ul>
                               </div>
                               <div class="single__event__heading">
-                                  <h4><a href="event-details.html">Forging relationships between multi to national governments and global.</a></h4>
+                                  <h4><a href="#">Forging relationships between multi to national governments and global.</a></h4>
                               </div>
                               <div class="single__event__button">
-                                  <a href="event-details.html">Read More <i class="icofont-simple-right"></i></a>
+                                  <a href="#">Read More <i class="icofont-simple-right"></i></a>
                               </div>
                           </div>
                       </div>
@@ -660,10 +660,10 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                   </ul>
                               </div>
                               <div class="single__event__heading">
-                                  <h4><a href="event-details.html">Forging relationships between multi to national governments and global.</a></h4>
+                                  <h4><a href="#">Forging relationships between multi to national governments and global.</a></h4>
                               </div>
                               <div class="single__event__button">
-                                  <a href="event-details.html">Read More <i class="icofont-simple-right"></i></a>
+                                  <a href="#">Read More <i class="icofont-simple-right"></i></a>
                               </div>
                           </div>
                           <div class="eventarea__img">
@@ -688,10 +688,10 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                   </ul>
                               </div>
                               <div class="single__event__heading">
-                                  <h4><a href="event-details.html">Forging relationships between multi to national governments and global.</a></h4>
+                                  <h4><a href="#">Forging relationships between multi to national governments and global.</a></h4>
                               </div>
                               <div class="single__event__button">
-                                  <a href="event-details.html">Read More <i class="icofont-simple-right"></i></a>
+                                  <a href="#">Read More <i class="icofont-simple-right"></i></a>
                               </div>
                           </div>
                       </div>
@@ -711,10 +711,10 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                   </ul>
                               </div>
                               <div class="single__event__heading">
-                                  <h4><a href="event-details.html">Forging relationships between multi to national governments and global.</a></h4>
+                                  <h4><a href="#">Forging relationships between multi to national governments and global.</a></h4>
                               </div>
                               <div class="single__event__button">
-                                  <a href="event-details.html">Read More <i class="icofont-simple-right"></i></a>
+                                  <a href="#">Read More <i class="icofont-simple-right"></i></a>
                               </div>
                           </div>
                           <div class="eventarea__img">
@@ -746,10 +746,10 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                   </ul>
                               </div>
                               <div class="single__event__heading">
-                                  <h4><a href="event-details.html">Forging relationships between multi to national governments and global.</a></h4>
+                                  <h4><a href="#">Forging relationships between multi to national governments and global.</a></h4>
                               </div>
                               <div class="single__event__button">
-                                  <a href="event-details.html">Read More <i class="icofont-simple-right"></i></a>
+                                  <a href="#">Read More <i class="icofont-simple-right"></i></a>
                               </div>
                           </div>
                       </div>
@@ -768,10 +768,10 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                   </ul>
                               </div>
                               <div class="single__event__heading">
-                                  <h4><a href="event-details.html">Forging relationships between multi to national governments and global.</a></h4>
+                                  <h4><a href="#">Forging relationships between multi to national governments and global.</a></h4>
                               </div>
                               <div class="single__event__button">
-                                  <a href="event-details.html">Read More <i class="icofont-simple-right"></i></a>
+                                  <a href="#">Read More <i class="icofont-simple-right"></i></a>
                               </div>
                           </div>
                           <div class="eventarea__img">
@@ -795,10 +795,10 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                   </ul>
                               </div>
                               <div class="single__event__heading">
-                                  <h4><a href="event-details.html">Forging relationships between multi to national governments and global.</a></h4>
+                                  <h4><a href="#">Forging relationships between multi to national governments and global.</a></h4>
                               </div>
                               <div class="single__event__button">
-                                  <a href="event-details.html">Read More <i class="icofont-simple-right"></i></a>
+                                  <a href="#">Read More <i class="icofont-simple-right"></i></a>
                               </div>
                           </div>
                       </div>
@@ -817,10 +817,10 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                   </ul>
                               </div>
                               <div class="single__event__heading">
-                                  <h4><a href="event-details.html">Forging relationships between multi to national governments and global.</a></h4>
+                                  <h4><a href="#">Forging relationships between multi to national governments and global.</a></h4>
                               </div>
                               <div class="single__event__button">
-                                  <a href="event-details.html">Read More <i class="icofont-simple-right"></i></a>
+                                  <a href="#">Read More <i class="icofont-simple-right"></i></a>
                               </div>
                           </div>
                           <div class="eventarea__img">
@@ -853,10 +853,10 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                   </ul>
                               </div>
                               <div class="single__event__heading">
-                                  <h4><a href="event-details.html">Forging relationships between multi to national governments and global.</a></h4>
+                                  <h4><a href="#">Forging relationships between multi to national governments and global.</a></h4>
                               </div>
                               <div class="single__event__button">
-                                  <a href="event-details.html">Read More <i class="icofont-simple-right"></i></a>
+                                  <a href="#">Read More <i class="icofont-simple-right"></i></a>
                               </div>
                           </div>
                       </div>
@@ -875,10 +875,10 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                   </ul>
                               </div>
                               <div class="single__event__heading">
-                                  <h4><a href="event-details.html">Forging relationships between multi to national governments and global.</a></h4>
+                                  <h4><a href="#">Forging relationships between multi to national governments and global.</a></h4>
                               </div>
                               <div class="single__event__button">
-                                  <a href="event-details.html">Read More <i class="icofont-simple-right"></i></a>
+                                  <a href="#">Read More <i class="icofont-simple-right"></i></a>
                               </div>
                           </div>
                           <div class="eventarea__img">
@@ -902,10 +902,10 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                   </ul>
                               </div>
                               <div class="single__event__heading">
-                                  <h4><a href="event-details.html">Forging relationships between multi to national governments and global.</a></h4>
+                                  <h4><a href="#">Forging relationships between multi to national governments and global.</a></h4>
                               </div>
                               <div class="single__event__button">
-                                  <a href="event-details.html">Read More <i class="icofont-simple-right"></i></a>
+                                  <a href="#">Read More <i class="icofont-simple-right"></i></a>
                               </div>
                           </div>
                       </div>
@@ -924,10 +924,10 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                   </ul>
                               </div>
                               <div class="single__event__heading">
-                                  <h4><a href="event-details.html">Forging relationships between multi to national governments and global.</a></h4>
+                                  <h4><a href="#">Forging relationships between multi to national governments and global.</a></h4>
                               </div>
                               <div class="single__event__button">
-                                  <a href="event-details.html">Read More <i class="icofont-simple-right"></i></a>
+                                  <a href="#">Read More <i class="icofont-simple-right"></i></a>
                               </div>
                           </div>
                           <div class="eventarea__img">
@@ -959,10 +959,10 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                   </ul>
                               </div>
                               <div class="single__event__heading">
-                                  <h4><a href="event-details.html">Forging relationships between multi to national governments and global.</a></h4>
+                                  <h4><a href="#">Forging relationships between multi to national governments and global.</a></h4>
                               </div>
                               <div class="single__event__button">
-                                  <a href="event-details.html">Read More <i class="icofont-simple-right"></i></a>
+                                  <a href="#">Read More <i class="icofont-simple-right"></i></a>
                               </div>
                           </div>
                       </div>
@@ -981,10 +981,10 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                   </ul>
                               </div>
                               <div class="single__event__heading">
-                                  <h4><a href="event-details.html">Forging relationships between multi to national governments and global.</a></h4>
+                                  <h4><a href="#">Forging relationships between multi to national governments and global.</a></h4>
                               </div>
                               <div class="single__event__button">
-                                  <a href="event-details.html">Read More <i class="icofont-simple-right"></i></a>
+                                  <a href="#">Read More <i class="icofont-simple-right"></i></a>
                               </div>
                           </div>
                           <div class="eventarea__img">
@@ -1008,10 +1008,10 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                   </ul>
                               </div>
                               <div class="single__event__heading">
-                                  <h4><a href="event-details.html">Forging relationships between multi to national governments and global.</a></h4>
+                                  <h4><a href="#">Forging relationships between multi to national governments and global.</a></h4>
                               </div>
                               <div class="single__event__button">
-                                  <a href="event-details.html">Read More <i class="icofont-simple-right"></i></a>
+                                  <a href="#">Read More <i class="icofont-simple-right"></i></a>
                               </div>
                           </div>
                       </div>
@@ -1030,10 +1030,10 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                   </ul>
                               </div>
                               <div class="single__event__heading">
-                                  <h4><a href="event-details.html">Forging relationships between multi to national governments and global.</a></h4>
+                                  <h4><a href="#">Forging relationships between multi to national governments and global.</a></h4>
                               </div>
                               <div class="single__event__button">
-                                  <a href="event-details.html">Read More <i class="icofont-simple-right"></i></a>
+                                  <a href="#">Read More <i class="icofont-simple-right"></i></a>
                               </div>
                           </div>
                           <div class="eventarea__img">
@@ -1065,10 +1065,10 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                   </ul>
                               </div>
                               <div class="single__event__heading">
-                                  <h4><a href="event-details.html">Forging relationships between multi to national governments and global.</a></h4>
+                                  <h4><a href="#">Forging relationships between multi to national governments and global.</a></h4>
                               </div>
                               <div class="single__event__button">
-                                  <a href="event-details.html">Read More <i class="icofont-simple-right"></i></a>
+                                  <a href="#">Read More <i class="icofont-simple-right"></i></a>
                               </div>
                           </div>
                       </div>
@@ -1087,10 +1087,10 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                   </ul>
                               </div>
                               <div class="single__event__heading">
-                                  <h4><a href="event-details.html">Forging relationships between multi to national governments and global.</a></h4>
+                                  <h4><a href="#">Forging relationships between multi to national governments and global.</a></h4>
                               </div>
                               <div class="single__event__button">
-                                  <a href="event-details.html">Read More <i class="icofont-simple-right"></i></a>
+                                  <a href="#">Read More <i class="icofont-simple-right"></i></a>
                               </div>
                           </div>
                           <div class="eventarea__img">
@@ -1114,10 +1114,10 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                   </ul>
                               </div>
                               <div class="single__event__heading">
-                                  <h4><a href="event-details.html">Forging relationships between multi to national governments and global.</a></h4>
+                                  <h4><a href="#">Forging relationships between multi to national governments and global.</a></h4>
                               </div>
                               <div class="single__event__button">
-                                  <a href="event-details.html">Read More <i class="icofont-simple-right"></i></a>
+                                  <a href="#">Read More <i class="icofont-simple-right"></i></a>
                               </div>
                           </div>
                       </div>
@@ -1136,10 +1136,10 @@ import NavHeader from '$lib/Components/Landing/NavHeader.svelte';
                                   </ul>
                               </div>
                               <div class="single__event__heading">
-                                  <h4><a href="event-details.html">Forging relationships between multi to national governments and global.</a></h4>
+                                  <h4><a href="#">Forging relationships between multi to national governments and global.</a></h4>
                               </div>
                               <div class="single__event__button">
-                                  <a href="event-details.html">Read More <i class="icofont-simple-right"></i></a>
+                                  <a href="#">Read More <i class="icofont-simple-right"></i></a>
                               </div>
                           </div>
                           <div class="eventarea__img">
