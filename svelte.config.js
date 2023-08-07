@@ -19,6 +19,7 @@ const config = {
 	},
 	vite:{
 		env: {
+
 			VITE_CODE_URL: process.env.VITE_CODE_URL
 		}
 	}

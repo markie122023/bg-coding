@@ -53,7 +53,7 @@
             <a class="nav-link" href="#">Configuration</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/skill_practice">Skill Practice</a>
+            <a class="nav-link" href="#">Skill Practice</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Past Questions</a>

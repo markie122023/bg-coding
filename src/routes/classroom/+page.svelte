@@ -2,6 +2,7 @@
   import Video from "$lib/Components/Classroom/Video.svelte";
   import Nav from "$lib/Components/Navigations/Nav.svelte";
   import Sidebar from "$lib/Components/Navigations/Sidebar.svelte";
+  import codingImg from "$lib/assets/images/logo/coding.png";
 </script>
 
 <div class="container-scroller">
@@ -126,17 +127,17 @@
                       >
                         <div class="d-flex mb-4">
                           <img
-                            src="../../../../images/samples/300x300/12.jpg"
+                            src="{codingImg}"
                             class="w-25 h-100 rounded"
                             alt="sample image"
                           />
                           <img
-                            src="../../../../images/samples/300x300/1.jpg"
+                            src="{codingImg}"
                             class="w-25 h-100 ms-4 rounded"
                             alt="sample image"
                           />
                           <img
-                            src="../../../../images/samples/300x300/2.jpg"
+                            src="{codingImg}"
                             class="w-25 h-100 ms-4 rounded"
                             alt="sample image"
                           />
@@ -164,7 +165,7 @@
                         <div class="media">
                           <img
                             class="me-3 w-25 rounded"
-                            src="../../../../images/samples/300X300/10.jpg"
+                            src="{codingImg}"
                             alt="sample image"
                           />
                           <div class="media-body">
@@ -187,7 +188,7 @@
                         <div class="media">
                           <img
                             class="me-3 w-25 rounded"
-                            src="../../../../images/samples/300x300/14.jpg"
+                            src="{codingImg}"
                             alt="sample image"
                           />
                           <div class="media-body">
@@ -214,7 +215,7 @@
                         <div class="media">
                           <img
                             class="me-3 w-25 rounded"
-                            src="../../../../images/samples/300x300/15.jpg"
+                            src="{codingImg}"
                             alt="sample image"
                           />
                           <div class="media-body">
