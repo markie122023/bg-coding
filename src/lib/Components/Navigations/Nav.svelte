@@ -1,6 +1,7 @@
 
 <script lang="ts">
   import { goto } from "$app/navigation";
+  export let profile = '';
 
     const logout =()=>{
        goto('/login');
@@ -82,7 +83,7 @@
        </li>
        <li class="nav-item nav-profile dropdown">
          <a href="javascript:void(0)" class="nav-link dropdown-toggle" data-toggle="dropdown" id="profileDropdown">
-           <img src="images/faces/face1.jpg" alt="profile"/>
+           <img src="{profile == 'images/avatar.svg'? 'https://www.svgrepo.com/show/446525/avatar.svg': profile}" alt="profile"/>
          </a>
          <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
            <a href="javascript:void(0)" class="dropdown-item">

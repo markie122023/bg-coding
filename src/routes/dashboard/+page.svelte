@@ -9,10 +9,14 @@
   import StudyTime from "$lib/Components/Graphs/StudyTime.svelte";
   import Slider from "$lib/Components/Home/Slider.svelte";
     let loader = false;
+    let user: any = {};
+    let token = '';
   
     onMount(() => {
-      
-      NotificationHelpher.alert("testing", window, "success", "ok");
+      if(sessionStorage.getItem('coding-user')){
+        user = JSON.parse(sessionStorage.getItem('coding-user') as string);
+        token = sessionStorage.getItem("token") as string;
+      }
       
     });
   </script>
@@ -24,7 +28,7 @@
 <Loader></Loader>
 {:else}
 <div class="container-scroller">
-    <Nav />
+    <Nav profile="{user.profile_pics}"/>
     <div class="container-fluid page-body-wrapper">
       <Sidebar />
 
@@ -35,7 +39,7 @@
             <div class="col-md-12 grid-margin">
               <div class="row">
                 <div class="col-12 col-xl-8 mb-4 mb-xl-0">
-                  <h3 class="font-weight-bold">Welcome Aamir</h3>
+                  <h3 class="font-weight-bold">Welcome {user.user_name}</h3>
                   <h6 class="font-weight-normal mb-0">
                     All systems are running smoothly! You have <span
                       class="text-primary">3 unread alerts!</span
