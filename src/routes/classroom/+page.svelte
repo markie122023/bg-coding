@@ -2,26 +2,50 @@
   import Video from "$lib/Components/Classroom/Video.svelte";
   import Nav from "$lib/Components/Navigations/Nav.svelte";
   import Sidebar from "$lib/Components/Navigations/Sidebar.svelte";
+  import { HttpHelpher } from "$lib/Helphers/http.helpher";
   import codingImg from "$lib/assets/images/logo/coding.png";
-</script>
+  import { BASE_URL } from "$lib/env";
+  import { onMount } from "svelte";
+  let user: any = {};
+  let token = '';
+  let course: any = {};
+  let author: any = {};
+  let loading = true;
 
+  onMount(async () => {
+    if (sessionStorage.getItem("coding-user")) {
+      user = JSON.parse(sessionStorage.getItem("coding-user") as string);
+      token = sessionStorage.getItem("token") as string;
+      course = JSON.parse(sessionStorage.getItem("activeCourse") as string);
+      try {
+        const resp = await HttpHelpher.get(
+          `${BASE_URL}users/user-detail?id=${course.authorId}`
+        );
+        author = resp;
+        console.log("author is", author);
+        loading = false;
+      } catch (error) {
+        loading = false;
+        console.log(error);
+      }
+    }
+  });
+</script>
+<svelte:head>
+  <title>Inntroduction to HTML</title>
+</svelte:head>
 <div class="container-scroller">
-  <Nav />
+  <Nav profile="{user.profile_pics}"/>
   <div class="container-fluid page-body-wrapper">
     <Sidebar />
     <div class="main-panel">
       <div class="content-wrapper">
-        <header class="header">
-          <div class="container">
-            <h1>E-Learning Platform</h1>
-          </div>
-        </header>
 
-        <section class="course-content">
+        <section class="course-content mt-n4">
           <div class="container">
             <div class="row">
               <div class="col-md-8 card">
-                <h2>Course Title</h2>
+                <h3>What is HTML</h3>
                 <Video />
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce

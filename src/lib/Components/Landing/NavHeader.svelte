@@ -20,7 +20,7 @@
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="headerarea__right">
                         <div class="headerarea__login">
-                            <a href="/signin">Login</a>
+                            <a href="/login">Login</a>
                         </div>
 
 
@@ -66,7 +66,7 @@
                     <ul class="mobile-menu">
                         <li class="menu-item-has-children"><a href="/">Home</a>
                         </li>
-                        <li><a class="menu-item-has-children" href="https://app.braingainspa.com/signin">Login</a></li>
+                        <li><a class="menu-item-has-children" href="/login">Login</a></li>
 
                         <li><a class="menu-item-has-children" href="https://app.braingainspa.com/register">Register</a></li>
                     </ul>
