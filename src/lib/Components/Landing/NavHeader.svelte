@@ -20,7 +20,7 @@
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="headerarea__right">
                         <div class="headerarea__login">
-                            <a href="https://app.braingainspa.com/signin">Login</a>
+                            <a href="/signin">Login</a>
                         </div>
 
 
