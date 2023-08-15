@@ -1,12 +1,19 @@
 <script lang="ts">
   import logo from "$lib/assets/images/logo/logo-mini.svg";
+  import angular from "$lib/assets/images/login/angular.jpeg";
   import akara from "$lib/assets/images/course/ankara.jpeg";
   import python from "$lib/assets/images/course/Python.jpeg";
+  import svelte from "$lib/assets/images/login/svelte.jpeg";
+  import scratch from "$lib/assets/images/login/scratch.png";
   import { NotificationHelpher } from "$lib/Helphers/notifications.helpher";
   import { HttpHelpher } from "$lib/Helphers/http.helpher";
   import { BASE_URL } from "$lib/env";
   let email = "";
   let password = "";
+  let bgImg = "";
+  const bgImgs = [python, angular, svelte, scratch];
+  const index = Math.floor(Math.random() * bgImgs.length);
+  bgImg = bgImgs[index];
   let isLoggingIn = false;
   const login = async () => {
     isLoggingIn = true;
@@ -43,10 +50,10 @@
   <title>BrainGainspa: Coding Login</title>
 </svelte:head>
 <div class="container-scroller">
-  <div class="container-fluid page-body-wrapper full-page-wrapper">
+  <div class="container-fluid page-body-wrapper full-page-wrapper"  style="background-image: url({bgImg});background-size: cover;">
     <div
       class="content-wrapper d-flex align-items-center auth px-0"
-      style="background-image: url({python});background-size: cover;"
+      style="background-image: url({bgImg});background-size: cover;"
     >
       <div class="row w-100 mx-0">
         <div class="col-lg-4 mx-auto">
@@ -114,7 +121,6 @@
     font-size: larger;
   }
   .page-body-wrapper {
-    background-color: green;
     background-size: cover;
   }
 </style>
