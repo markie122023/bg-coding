@@ -17,6 +17,7 @@
   let author: any ={};
   let token = "";
   const addCourse =()=>{
+    sessionStorage.setItem("activeCourse", JSON.stringify(course));
     goto('/classroom');
   }
   onMount(async () => {

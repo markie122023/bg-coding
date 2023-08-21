@@ -8,12 +8,13 @@
   import { NotificationHelpher } from "$lib/Helphers/notifications.helpher";
   import { HttpHelpher } from "$lib/Helphers/http.helpher";
   import { BASE_URL } from "$lib/env";
+  import { onMount } from "svelte";
   let email = "";
   let password = "";
   let bgImg = "";
   const bgImgs = [python, angular, svelte, scratch];
   const index = Math.floor(Math.random() * bgImgs.length);
-  bgImg = bgImgs[index];
+    bgImg = bgImgs[index];
   let isLoggingIn = false;
   const login = async () => {
     isLoggingIn = true;
@@ -44,6 +45,10 @@
       }
     }
   };
+
+  onMount(()=>{
+   
+  })
 </script>
 
 <svelte:head>
