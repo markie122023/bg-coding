@@ -14,6 +14,7 @@
     goto("/course-details");
   }
   onMount(async () => {
+    
     if (sessionStorage.getItem("coding-user")) {
       user = JSON.parse(sessionStorage.getItem("coding-user") as string);
       token = sessionStorage.getItem("token") as string;
