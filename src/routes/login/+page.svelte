@@ -29,6 +29,7 @@
         NotificationHelpher.alert(resp.message, window, "error", "error");
         isLoggingIn = false;
       } else if (resp.status == "200") {
+        console.log('the far away here',resp.data);
         if(resp.data.type == 'student' || resp.data.type == "graduate"){
           NotificationHelpher.alert(resp.message, window, "success", "ok");
         isLoggingIn = false;
