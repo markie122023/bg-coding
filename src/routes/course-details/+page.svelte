@@ -19,9 +19,9 @@
   let token = "";
   const addCourse = async ()=>{
     try {
-        NotificationHelpher.alert("adding course to library", window, 'info','adding...')
+        NotificationHelpher.alert("adding course to library", window, 'info','adding...');
         const resp = await HttpHelpher.get(
-          `${BASE_URL}coding/add-course?id=${course._id}`
+          `${BASE_URL}coding/add-course?course=${course._id}`
         );
         console.log(resp);
         if(resp){
@@ -32,9 +32,12 @@
             }
             else{throw(resp.error)}
         }
-    } catch (error) {
+    } catch (error: any) {
         console.log(error);
-        NotificationHelpher.alert('something went wrong',window,'error','error');
+        if(error.code == 11000){NotificationHelpher.alert(`you have already added this course`,window,'error','error');}
+        else{
+            NotificationHelpher.alert(`something went wrong!!!`, window, "error", "error");
+        }
     }
     
   }

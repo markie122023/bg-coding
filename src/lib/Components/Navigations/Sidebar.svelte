@@ -6,12 +6,7 @@
         <span class="menu-title">Dashboard</span>
       </a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="/level">
-        <i class="icon-command menu-icon" />
-        <span class="menu-title">Learning</span>
-      </a>
-    </li>
+   
     <li class="nav-item">
       <a
         class="nav-link"
@@ -21,48 +16,39 @@
         aria-controls="form-elements"
       >
         <i class="icon-columns menu-icon" />
-        <span class="menu-title">Challenge</span>
+        <span class="menu-title">Learning</span>
         <i class="menu-arrow" />
       </a>
       <div class="collapse" id="form-elements">
         <ul class="nav flex-column sub-menu">
           <li class="nav-item">
-            <a class="nav-link" href="#">Payment Resolution</a>
+            <a class="nav-link" href="/level">All Learning</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Withdrawal Request</a>
+            <a class="nav-link" href="/my_courses">My Courses</a>
           </li>
         </ul>
       </div>
     </li>
     <li class="nav-item">
+      <a class="nav-link" href="/challenge">
+        <i class="icon-command menu-icon" />
+        <span class="menu-title">Challenge</span>
+      </a>
+    </li>
+    <li class="nav-item">
       <a
         class="nav-link"
         data-toggle="collapse"
-        href="#questions"
+        href="#games"
         aria-expanded="false"
-        aria-controls="questions"
+        aria-controls="games"
       >
         <i class="icon-gamepad menu-icon" />
         <span class="menu-title">Games</span>
-        <i class="menu-arrow" />
+        
       </a>
-      <div class="collapse" id="questions">
-        <ul class="nav flex-column sub-menu">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Configuration</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Skill Practice</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Past Questions</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Issue Questions</a>
-          </li>
-        </ul>
-      </div>
+     
     </li>
   </ul>
 </nav>
