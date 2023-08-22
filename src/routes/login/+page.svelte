@@ -29,11 +29,18 @@
         NotificationHelpher.alert(resp.message, window, "error", "error");
         isLoggingIn = false;
       } else if (resp.status == "200") {
-        NotificationHelpher.alert(resp.message, window, "success", "ok");
+        if(resp.data.type == 'student' || resp.data.type == "graduate"){
+          NotificationHelpher.alert(resp.message, window, "success", "ok");
         isLoggingIn = false;
         sessionStorage.setItem("coding-user",JSON.stringify(resp.data.user));
         sessionStorage.setItem("token", resp.data.token);
        location.href = "/dashboard";
+        }
+        else{
+          isLoggingIn = false;
+          NotificationHelpher.alert("you can only access this with a student account", window, 'error', "error");
+        }
+        
       } else {
         NotificationHelpher.alert(
           "something went wrong",

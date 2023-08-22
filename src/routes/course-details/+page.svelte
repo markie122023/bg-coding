@@ -11,14 +11,32 @@
   import { HttpHelpher } from "$lib/Helphers/http.helpher";
   import { BASE_URL } from "$lib/env";
   import { goto } from "$app/navigation";
+  import { NotificationHelpher } from "$lib/Helphers/notifications.helpher";
   let loading = true;
   let user: any = {};
   let course : any= {};
   let author: any ={};
   let token = "";
-  const addCourse =()=>{
-    sessionStorage.setItem("activeCourse", JSON.stringify(course));
-    goto('/classroom');
+  const addCourse = async ()=>{
+    try {
+        NotificationHelpher.alert("adding course to library", window, 'info','adding...')
+        const resp = await HttpHelpher.get(
+          `${BASE_URL}coding/add-course?id=${course._id}`
+        );
+        console.log(resp);
+        if(resp){
+            if(resp.status == 200){
+                NotificationHelpher.alert("course has been handed successfully", window, 'success','ok');
+                sessionStorage.setItem("activeCourse", JSON.stringify(course));
+                goto('/classroom');
+            }
+            else{throw(resp.error)}
+        }
+    } catch (error) {
+        console.log(error);
+        NotificationHelpher.alert('something went wrong',window,'error','error');
+    }
+    
   }
   onMount(async () => {
     if (sessionStorage.getItem("coding-user")) {
