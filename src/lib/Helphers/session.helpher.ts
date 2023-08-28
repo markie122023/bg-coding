@@ -7,14 +7,14 @@ export class SessionHelpher {
 
     static getUserDetails(){
         console.log('get users');
-        const data = sessionStorage.getItem('bg-admin-user') as string || 
-        localStorage.getItem('bg-admin-user') as string ;
+        const data = sessionStorage.getItem('bg-code-user') as string || 
+        localStorage.getItem('bg-code-user') as string ;
         return JSON.parse(data);
     }
     static getToken(){
         console.log('get users');
-        const data = sessionStorage.getItem('bg-admin-token') as string || 
-        localStorage.getItem('bg-admin-token') as string ;
+        const data = sessionStorage.getItem('bg-code-token') as string || 
+        localStorage.getItem('bg-code-token') as string ;
         return data;
     }
 

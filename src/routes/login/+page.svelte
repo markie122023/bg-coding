@@ -32,8 +32,8 @@
         if(resp.data.user.type == 'student' || resp.data.user.type == "graduate"){
           NotificationHelpher.alert(resp.message, window, "success", "ok");
         isLoggingIn = false;
-        sessionStorage.setItem("bg-admin-user",JSON.stringify(resp.data.user));
-        sessionStorage.setItem("bg-admin-token", resp.data.token);
+        sessionStorage.setItem("bg-code-user",JSON.stringify(resp.data.user));
+        sessionStorage.setItem("bg-code-token", resp.data.token);
        location.href = "/dashboard";
         }
         else{
