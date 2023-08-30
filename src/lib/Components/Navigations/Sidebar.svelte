@@ -31,7 +31,7 @@
       </div>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/challenge">
+      <a class="nav-link" href="/">
         <i class="icon-command menu-icon" />
         <span class="menu-title">Challenge</span>
       </a>
@@ -40,7 +40,7 @@
       <a
         class="nav-link"
         data-toggle="collapse"
-        href="#games"
+        href="/"
         aria-expanded="false"
         aria-controls="games"
       >
