@@ -7,6 +7,7 @@
   import faces from "$lib/assets/images/faces/face1.jpg";
   import { BASE_URL } from "$lib/env";
   import { onMount } from "svelte";
+  import { SessionHelpher } from "$lib/Helphers/session.helpher";
   let user: any = {};
   let token = '';
   let course: any = {};
@@ -16,11 +17,12 @@
   let activeItem = 0;
   let courseItems: any[] = [];
   onMount(async () => {
-    if (sessionStorage.getItem("coding-user")) {
-      user = JSON.parse(sessionStorage.getItem("coding-user") as string);
-      token = sessionStorage.getItem("token") as string;
+    user = SessionHelpher.getUserDetails();
+    if (user) {
+      
+      token = SessionHelpher.getToken();
       course = JSON.parse(sessionStorage.getItem("activeCourse") as string);
-      console.log("the course ", course);
+      console.log("the course ", user);
       activeCategory = 1;
       try {
         courseItems = await HttpHelpher.get(`${BASE_URL}coding/course-items?id=${course._id}`);
@@ -222,7 +224,6 @@
                                   <span class="text">Hey, how's it going?</span>
                                 </div>
                               </div>
-                             
                               <!-- More messages go here -->
                             </div>
                           </div>

@@ -5,6 +5,7 @@ let win: any ={};
 export let src= 'videos/joy.mp4';
 onMount(()=>{
     win = window;
+    console.log(win);
     player = new win.Plyr('#player');
 })
 
@@ -14,7 +15,7 @@ onMount(()=>{
     
   <link rel="stylesheet" href="https://cdn.plyr.io/3.6.4/plyr.css">
 
-  <script src="https://cdn.plyr.io/3.6.4/plyr.js"></script>
+  
 
 </svelte:head>
 <div class="video">
