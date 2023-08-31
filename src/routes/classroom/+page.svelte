@@ -123,7 +123,7 @@
                         aria-controls="pills-home"
                         aria-selected="true"
                       >
-                        Comment
+                        Ratings
                       </a>
                     </li>
                     <li class="nav-item">
@@ -176,36 +176,13 @@
                       role="tabpanel"
                       aria-labelledby="pills-home-tab-custom"
                     >
-                      <div class="d-flex mb-4">
-                        <img
-                          src="{codingImg}"
-                          class="w-25 h-100 rounded"
-                          alt="sample image"
-                        />
-                        <img
-                          src="{codingImg}"
-                          class="w-25 h-100 ms-4 rounded"
-                          alt="sample image"
-                        />
-                        <img
-                          src="{codingImg}"
-                          class="w-25 h-100 ms-4 rounded"
-                          alt="sample image"
-                        />
+                      <h2>student feedback</h2>
+                      <div class="row">
+                        <div class="col-3 ">
+                         <div class="score">4.1</div>
+                         <div class="score"><input data-role="rating"></div>
+                        </div>
                       </div>
-                      <p>
-                        I'm not the monster he wants me to be. So I'm neither
-                        man nor beast. I'm something new entirely. With my own
-                        set of rules. I'm Dexter. Boo. Only you could make
-                        those words cute. I'm thinking two circus clowns
-                        dancing. You?
-                      </p>
-                      <p>
-                        Under normal circumstances, I'd take that as a
-                        compliment. Tell him time is of the essence. I'm
-                        really more an apartment person. Finding a needle in a
-                        haystack isn't hard when every straw is computerized.
-                      </p>
                     </div>
                     <div
                       class="tab-pane fade"
@@ -301,6 +278,12 @@
 
 <style>
   /* Custom CSS styles */
+  .score {
+    line-height: 1;
+    font-size: 2.9rem;
+    font-weight: 700;
+    letter-spacing: -.02rem;
+  }
 
   /* Header styles */
   .header {
